@@ -1,5 +1,7 @@
 siparkir
 --------
+
+![siparkir screenshot](screenshot.png  "screenshot")
 Aplikasi manajemen parkir yang dibuat untuk memenuhi tugas final project pemrograman java (smester 3) di kampus saya. Menggunakan mysql sebagai databasenya.
 
 Cara Kompilasi dan eksekusi
