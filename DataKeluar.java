@@ -293,6 +293,6 @@ class DataKeluar extends JFrame {
 		nopol   = (String) tableModel.getValueAt(pilih, 1); //nopol
 		tipenya = (String) tableModel.getValueAt(pilih, 2); //tipe
 		textNopol.setText(nopol);
-		textID.setText("#" + id);
+		textID.setText("" + id);
 	}
 }

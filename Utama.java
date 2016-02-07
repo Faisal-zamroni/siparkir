@@ -369,7 +369,7 @@ public class Utama extends JFrame {
 		if(pilih == -1) return; //kalo nggak ada yg diklik, kasih return value null
 
 		Integer id = Integer.parseInt(table.getValueAt(pilih, 0).toString());
-		txtID.setText("#" + id);
+		txtID.setText("" + id);
 		String nopol = (String) tableModel.getValueAt(pilih, 1); //ambil objek pada baris yang di klik di indeks kolom ke 1 (kolom kedua (kolom Nomor Polisi))
 		txtNopol.setText(nopol); //isikan ke txtNopol
 		String tipe = (String) tableModel.getValueAt(pilih, 2); //ambil objek pada baris yang di klik di indeks kolom ke 2 (kolom ketiga (kolom Tipe Kendaraan))
@@ -396,7 +396,6 @@ public class Utama extends JFrame {
 		} catch(Exception ex) {
 			JOptionPane.showMessageDialog(null, ex); //print errornya ke message dialog
 		}
-		return jmlData;
 	}
 
 
